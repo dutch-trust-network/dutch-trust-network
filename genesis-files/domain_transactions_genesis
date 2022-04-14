@@ -1,0 +1,3 @@
+{"reqSignature":{},"txn":{"data":{"dest":"NBw7H1VfhRxpvpuPtJbP2L","role":"0","verkey":"~QdycKquT2yvuDm2UMzFayU"},"metadata":{},"type":"1"},"txnMetadata":{"seqNo":1},"ver":"1"}
+{"reqSignature":{},"txn":{"data":{"dest":"8TgbBW8aAzPoqriY97E9iz","role":"2","verkey":"~QWbQf7LFF5omqe3sjmK1N3"},"metadata":{"from":"NBw7H1VfhRxpvpuPtJbP2L"},"type":"1"},"txnMetadata":{"seqNo":2},"ver":"1"}
+{"reqSignature":{},"txn":{"data":{"dest":"ULJ8AvUcj6UAFSKYEqBizZ","role":"2","verkey":"~KJHpEJRGNQnrkzcJ8vzvmX"},"metadata":{"from":"NBw7H1VfhRxpvpuPtJbP2L"},"type":"1"},"txnMetadata":{"seqNo":3},"ver":"1"}
