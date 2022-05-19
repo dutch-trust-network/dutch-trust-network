@@ -186,7 +186,7 @@ TEST_MODE=
 HOLD_EXT=sovtoken sovtokenfees sovrin
 ```
 
-k## Appendix A. Setting Up Digital Ocean Server
+## Appendix A. Setting Up Digital Ocean Server
 
 Digital Ocean doesn't support Ubuntu 16.04 anymore, so we need to provide our own base image. The following steps are required to set up a Digital Ocean server.
 
