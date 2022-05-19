@@ -13,6 +13,8 @@
 - Ports `9701` and `9702` exposed
 - Static IP address
 
+See [Setting Up Digital Ocean for Node](#appendix-a-setting-up-digital-ocean-server) for information on how to set up an Ubuntu 16.04 server for deploying a DTN node.
+
 ### 1.1 Creating the Indy user
 
 Before setting up the validator node we need to make sure we create an `indy` non-root sudo user without password.
@@ -183,3 +185,17 @@ Should be placed in `/etc/indy/node_control.conf`.
 TEST_MODE=
 HOLD_EXT=sovtoken sovtokenfees sovrin
 ```
+
+## Appendix A. Setting Up Digital Ocean Server
+
+Digital Ocean doesn't support Ubuntu 16.04 anymore, so we need to provide our own base image. The following steps are required to set up a Digital Ocean server.
+
+1. Download the [current Ubuntu 16.04 image](https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-amd64-disk1.img) from the Ubuntu cloud images sites
+2. Upload the image to your Digital Ocean account [here](https://cloud.digitalocean.com/images/custom_images)
+3. Click the create a droplet button (Green `CREATE` button at top of page)
+4. Click on `More` for the image you just uploaded, and click `Create Droplet`
+   ![](../assets/digital-ocean-create-droplet.png)
+5. For the server specs make sure to at minimum use the following plan
+   ![](../assets/didgital-ocean-droplet-size.png)
+6. Make sure to add an SSH key so you can get access to the droplet, add one if you don't have keys stored in Digital Ocean already
+7. Create the droplet! Once finished you can proceed with the rest of the setup guide.
